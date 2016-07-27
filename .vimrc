@@ -13,3 +13,4 @@ if has("autocmd")
   endif
 " set comments to dark green
 hi comment ctermfg=darkgreen
+noremap 2o o<cr>
