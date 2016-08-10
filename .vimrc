@@ -14,3 +14,5 @@ if has("autocmd")
 " set comments to dark green
 hi comment ctermfg=darkgreen
 noremap 2o o<cr>
+set autowrite
+set makeprg=python\ %
