@@ -16,3 +16,4 @@ hi comment ctermfg=darkgreen
 noremap 2o o<cr>
 set autowrite
 set makeprg=python\ %
+set hlsearch
