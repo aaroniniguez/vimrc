@@ -17,3 +17,5 @@ noremap 2o o<cr>
 set autowrite
 set makeprg=python\ %
 set hlsearch
+set tabstop=4
+set shiftwidth=4
