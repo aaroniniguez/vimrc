@@ -24,3 +24,5 @@ set shiftwidth=4
 " highlight searches and then unhighlight by pressing <esc>
 nnoremap <Esc> :noh<return><Esc>
 nnoremap <esc>^[ <esc>^[
+" press 0 to move to first character of line instead of the very beginning of the line
+nnoremap 0 <S-^>
