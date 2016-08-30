@@ -18,11 +18,13 @@ set autowrite
 set makeprg=python\ %
 set hlsearch
 " set tabs to equal 4 spaces
-set expandtab
-set tabstop=4
-set shiftwidth=4
+"set expandtab
+"set tabstop=4
+"set shiftwidth=4
 " highlight searches and then unhighlight by pressing <esc>
 nnoremap <Esc> :noh<return><Esc>
 nnoremap <esc>^[ <esc>^[
 " press 0 to move to first character of line instead of the very beginning of the line
 nnoremap 0 <S-^>
+"store vim swap files here
+set directory^=$HOME/.vim/tmp//
