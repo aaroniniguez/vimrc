@@ -28,3 +28,5 @@ nnoremap <esc>^[ <esc>^[
 nnoremap 0 <S-^>
 "store vim swap files here
 set directory^=$HOME/.vim/tmp//
+"set tab to appear 4 spaces wide
+set tabstop=4
