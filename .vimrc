@@ -11,6 +11,8 @@ set autoindent
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
   endif
+"turn on syntax highlighting 
+syntax on
 " set comments to dark green
 hi comment ctermfg=darkgreen
 noremap 2o o<cr>
