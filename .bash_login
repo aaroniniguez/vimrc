@@ -2,3 +2,4 @@ alias ls="echo -e; ls -alhG"
 alias clear="clear && printf '\033[3J'"
 export EDITOR=vim
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+PS1='\w\$ '
