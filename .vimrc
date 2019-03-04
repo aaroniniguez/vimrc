@@ -1,3 +1,18 @@
+"Turn on backup option
+set backup
+
+"Where to store backups
+set backupdir=~/.vim/backup//
+
+"Make backup before overwriting the current buffer
+set writebackup
+
+"Overwrite the original backup file
+set backupcopy=yes
+
+"Meaningful backup name, ex: filename@2015-04-05.14:59
+au BufWritePre * let &bex = '@' . strftime("%F.%H:%M")
+
 set nowrap
 set showtabline=2
 set number
@@ -1180,3 +1195,11 @@ endfunction " }}}
 let &cpo = s:save_cpo
 
 " vim:ft=vim:fdm=marker
+
+"PHP specific mappings
+inoremap { <CR>{<CR>}<Esc>ko<tab>
+inoremap " ""<Esc>i
+inoremap ' ''<Esc>i
+inoremap [ []<Esc>i
+inoremap ( ()<Esc>i
+nnoremap o o;<Esc>i
