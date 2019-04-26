@@ -2,5 +2,5 @@
 
 To Install
 ```
-mv ~/vimr/.vimrc ~/
+mv ~/vimrc/.vimrc ~/
 ```
