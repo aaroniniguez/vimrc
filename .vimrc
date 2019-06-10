@@ -1197,7 +1197,7 @@ let &cpo = s:save_cpo
 " vim:ft=vim:fdm=marker
 
 "PHP specific mappings
-inoremap { <CR>{<CR>}<Esc>ko<tab>
+inoremap {  {}<Esc>i
 inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 inoremap [ []<Esc>i
