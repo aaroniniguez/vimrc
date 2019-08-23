@@ -2,6 +2,6 @@
 
 To Install
 ```
-mv ~/vimrc/.vimrc ~/
-mv ~/vimrc/.bashrc ~/
+cp ~/vimrc/.vimrc ~/
+cp ~/vimrc/.bashrc ~/
 ```
